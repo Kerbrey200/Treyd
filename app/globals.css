@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root, [data-theme="DARK"] {
+  --bg-app: #0B0E14;
+  --bg-surface: #0E131F;
+  --bg-header: #090C12;
+  --bg-card: #111724;
+  --bg-card-subtle: #172033;
+  --bg-input: #080A0F;
+  --border-app: #1F293D;
+  --border-subtle: #2A364F;
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --text-subtle: #64748B;
+  --accent: #F59E0B;
+  --accent-subtle: rgba(245, 158, 11, 0.15);
+}
+
+[data-theme="LIGHT"] {
+  --bg-app: #F1F5F9;
+  --bg-surface: #FFFFFF;
+  --bg-header: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-card-subtle: #F8FAFC;
+  --bg-input: #F1F5F9;
+  --border-app: #CBD5E1;
+  --border-subtle: #E2E8F0;
+  --text-main: #0F172A;
+  --text-muted: #475569;
+  --text-subtle: #94A3B8;
+  --accent: #D97706;
+  --accent-subtle: rgba(217, 119, 6, 0.12);
+}
+
+[data-theme="OLED"] {
+  --bg-app: #000000;
+  --bg-surface: #000000;
+  --bg-header: #000000;
+  --bg-card: #080808;
+  --bg-card-subtle: #121212;
+  --bg-input: #000000;
+  --border-app: #262626;
+  --border-subtle: #404040;
+  --text-main: #FAFAFA;
+  --text-muted: #A3A3A3;
+  --text-subtle: #737373;
+  --accent: #EAB308;
+  --accent-subtle: rgba(234, 179, 8, 0.15);
+}
+
+[data-theme="GOLD"] {
+  --bg-app: #12100E;
+  --bg-surface: #181512;
+  --bg-header: #0F0D0A;
+  --bg-card: #1F1B17;
+  --bg-card-subtle: #29241E;
+  --bg-input: #0B0A08;
+  --border-app: #3D3326;
+  --border-subtle: #574836;
+  --text-main: #FDF8F0;
+  --text-muted: #D4C5A9;
+  --text-subtle: #A3937B;
+  --accent: #F59E0B;
+  --accent-subtle: rgba(245, 158, 11, 0.18);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
